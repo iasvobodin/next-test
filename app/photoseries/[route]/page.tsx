@@ -20,7 +20,7 @@ export default async function Page({ params }: { params: { route: string } }) {
   return (
     <main>
       <h1>{route}</h1>
-      <p>{JSON.stringify(item.map(e => e.name))}</p>
+      <p>wow{JSON.stringify(item.map(e => e.name))}</p>
     </main>
 
   )
